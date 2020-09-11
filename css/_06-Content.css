@@ -1,0 +1,35 @@
+.main__article {
+    padding: 0 .5rem .5rem 0;
+}
+
+.main__article h2 {
+    margin: 1rem 0;
+}
+
+.main__cards {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* grid-template-rows: repeat(3, 1fr); */
+}
+
+.main__card {
+    position: relative;
+}
+
+.main__info {
+    bottom: 3px;
+    opacity: .7;
+    padding: 1rem;
+    position: absolute;
+    color: var(--colorClaro);
+    background-color: #ea5E5C;
+}
+
+.main__info h3 {
+    margin-bottom: .5rem;
+}
+
+.main__info p {
+    font-size: .8rem;
+}
