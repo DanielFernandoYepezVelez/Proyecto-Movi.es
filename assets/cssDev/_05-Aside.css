@@ -27,6 +27,7 @@ span {
     align-items: center;
     margin-bottom: 1.5rem;
     flex-direction: column;
+    text-decoration: none;
 }
 
 .aside__icon:last-child {
@@ -35,10 +36,11 @@ span {
 
 .aside__icon--individual span {
     display: block;
+    text-decoration: none;
 }
 
-@media screen and (min-width: 412px){
- .aside {
-     grid-template-rows: 1fr 15%;
- }   
+@media screen and (min-width: 412px) {
+    .aside {
+        grid-template-rows: 1fr 15%;
+    }
 }
